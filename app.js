@@ -1,6 +1,6 @@
 // const CatMe = require('cat-me') ;
 // console.log(CatMe()  );
-// call me is a package
+// call-me is a package that give code for cat
 const http = require('http') ;
 const server = http.createServer((req, res)=>{
     res.end('server')
